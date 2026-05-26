@@ -5,14 +5,14 @@ Sistema híbrido que recria o conceito de gerenciamento de dados de baixo nível
 
 ---
 
-### Como Funciona a Arquitetura e Recursos:
+## Como Funciona a Arquitetura e Recursos:
 
 * **O Motor (Core em C):** Responsável pela manipulação direta do arquivo binário (`database.bin`). Executa com máxima performance as operações estruturadas de persistência em disco, lógica de ponteiros e o processamento de arquivos para importação e exportação de dados.
 * **A Interface (Camada Python):** Desenvolvida em Python (`app.py`), provê a abstração visual. Ela gerencia o formulário de cadastro, os filtros de busca dinâmica e regras de negócio como validação de CPF e cálculo automático do painel "Status da Turma" (Exibindo Total, Média Geral e Taxa de Aprovação).
 
 ---
 
-### Funcionalidades Práticas Visíveis:
+## Funcionalidades Práticas Visíveis:
 
 * **CRUD Completo:** Cadastro, leitura, ordenação (por ID, Nome, Matéria, Nota, Frequência e Situação) e exclusão de registros acadêmicos.
 * **Interoperabilidade:** Botões dedicados para importação e exportação de arquivos nos formatos `.TXT` e `.EXCEL`.
@@ -20,7 +20,7 @@ Sistema híbrido que recria o conceito de gerenciamento de dados de baixo nível
 
 ---
 
-### Competências Demonstradas:
+## Competências Demonstradas:
 
 * **Manipulação de Baixo Nível:** Domínio de estruturas de dados fixas (`structs`) e persistência binária sem depender de frameworks prontos.
 * **Desenvolvimento de Interfaces (GUI):** Construção de um painel de controle intuitivo, limpo e responsivo para manipulação de dados complexos.
